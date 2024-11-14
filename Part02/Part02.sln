@@ -3,17 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "57_ArrayBasic", "57_ArrayBasic\57_ArrayBasic.csproj", "{D93C3EBB-D45E-4050-B7C4-32182DE6381A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "57_ArrayBasic", "57_ArrayBasic\57_ArrayBasic.csproj", "{D93C3EBB-D45E-4050-B7C4-32182DE6381A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58_ArrayClass", "58_ArrayClass\58_ArrayClass.csproj", "{0D24733C-6CD6-425E-8FB7-0FD54D576C29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "58_ArrayClass", "58_ArrayClass\58_ArrayClass.csproj", "{0D24733C-6CD6-425E-8FB7-0FD54D576C29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59_MultiDimensionArray", "59_MultiDimensionArray\59_MultiDimensionArray.csproj", "{233E6064-9BFA-4852-A48D-982AE0404F0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "59_MultiDimensionArray", "59_MultiDimensionArray\59_MultiDimensionArray.csproj", "{233E6064-9BFA-4852-A48D-982AE0404F0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "60_ArraySorting", "60_ArraySorting\60_ArraySorting.csproj", "{5992EE9D-02C9-4160-A38C-E448ABD078BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "60_ArraySorting", "60_ArraySorting\60_ArraySorting.csproj", "{5992EE9D-02C9-4160-A38C-E448ABD078BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "61_RandomClass", "61_RandomClass\61_RandomClass.csproj", "{6F00327D-C054-4DA8-BEDF-474DD6F2BC50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61_RandomClass", "61_RandomClass\61_RandomClass.csproj", "{6F00327D-C054-4DA8-BEDF-474DD6F2BC50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "62_ArrayAndRandom", "62_ArrayAndRandom\62_ArrayAndRandom.csproj", "{021B88E3-AA5D-4FC8-ADCE-D5A4B5A80493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "62_ArrayAndRandom", "62_ArrayAndRandom\62_ArrayAndRandom.csproj", "{021B88E3-AA5D-4FC8-ADCE-D5A4B5A80493}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "63_BinarySearch", "63_BinarySearch\63_BinarySearch.csproj", "{ACB33D6A-91B6-438B-A1D9-0027C7FAE75B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "64_BubbleSort", "64_BubbleSort\64_BubbleSort.csproj", "{BAEB5ADC-B7AC-4502-9F0B-6E43408540D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "65_ClassAndStruct", "65_ClassAndStruct\65_ClassAndStruct.csproj", "{16CC48DC-FFDD-4302-B64C-C6DC61CCECE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "66_MemberVariable", "66_MemberVariable\66_MemberVariable.csproj", "{D961874B-9587-4BF1-98A1-BB81DA5711B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "67_InstanceMethod", "67_InstanceMethod\67_InstanceMethod.csproj", "{130408FC-0716-4772-B960-0387633EFF57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +55,26 @@ Global
 		{021B88E3-AA5D-4FC8-ADCE-D5A4B5A80493}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{021B88E3-AA5D-4FC8-ADCE-D5A4B5A80493}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{021B88E3-AA5D-4FC8-ADCE-D5A4B5A80493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB33D6A-91B6-438B-A1D9-0027C7FAE75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB33D6A-91B6-438B-A1D9-0027C7FAE75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB33D6A-91B6-438B-A1D9-0027C7FAE75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB33D6A-91B6-438B-A1D9-0027C7FAE75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEB5ADC-B7AC-4502-9F0B-6E43408540D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEB5ADC-B7AC-4502-9F0B-6E43408540D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEB5ADC-B7AC-4502-9F0B-6E43408540D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEB5ADC-B7AC-4502-9F0B-6E43408540D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16CC48DC-FFDD-4302-B64C-C6DC61CCECE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CC48DC-FFDD-4302-B64C-C6DC61CCECE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CC48DC-FFDD-4302-B64C-C6DC61CCECE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CC48DC-FFDD-4302-B64C-C6DC61CCECE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D961874B-9587-4BF1-98A1-BB81DA5711B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D961874B-9587-4BF1-98A1-BB81DA5711B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D961874B-9587-4BF1-98A1-BB81DA5711B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D961874B-9587-4BF1-98A1-BB81DA5711B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130408FC-0716-4772-B960-0387633EFF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130408FC-0716-4772-B960-0387633EFF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130408FC-0716-4772-B960-0387633EFF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130408FC-0716-4772-B960-0387633EFF57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
